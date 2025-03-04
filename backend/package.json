@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend of AQ analyzer app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoachAsim/east-village-aq-analyzer-epfp2.git"
+  },
+  "author": "Asim Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoachAsim/east-village-aq-analyzer-epfp2/issues"
+  },
+  "homepage": "https://github.com/CoachAsim/east-village-aq-analyzer-epfp2#readme"
+}
