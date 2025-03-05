@@ -8,7 +8,12 @@ const requestHandler = express();
 // Storing our port value from the .env file
 const port = process.env.PORT;
 
-// This project only needs to GET from the db
+// Your term 2 final project only needs to GET from the db (database)
+requestHandler.get("/api/v1/get-template", (req, res) => {
+	res.send("Hello World!");
+});
+
+// IF you finish your minimum required user stories, you can add routes for creating, updating, and deleting in the db. IF YOU FINISH MINIMUM REQUIREMENTS!
 
 
 
