@@ -2,6 +2,8 @@
 import express from "express";
 // We use dotenv so that we can access our environment variables
 import "dotenv/config";
+// We import our index.js so that we can query our database
+import * as db from "./db/index.js";
 
 // Create an instance of express
 const requestHandler = express();
