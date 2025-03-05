@@ -10,6 +10,9 @@ const requestHandler = express();
 // Storing our port value from the .env file
 const port = process.env.PORT;
 
+// The middleware express.json() parses incoming JSON requests and puts the parsed data in req.body, making it accessible for further processing in our application
+requestHandler.use(express.json());
+
 // Your term 2 final project only needs to GET from the db (database)
 requestHandler.get("/api/v1/get-template", (req, res) => {
 	res.send("Hello World!");
