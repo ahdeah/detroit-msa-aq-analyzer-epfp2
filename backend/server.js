@@ -14,15 +14,12 @@ const port = process.env.PORT;
 requestHandler.use(express.json());
 
 // Your term 2 final project only needs to GET from the db (database)
-requestHandler.get("/api/v1/get-template", (req, res) => {
-	res.send("Hello World!");
+requestHandler.get("/api/v1/air-quality-data", async (req, res) => {
+	const dbResponse = await db.query("select * from air_quality limit 5");
+	console.log(dbResponse);
+	res.send(dbResponse);
 });
-
 // IF you finish your minimum required user stories, you can add routes for creating, updating, and deleting in the db. IF YOU FINISH MINIMUM REQUIREMENTS!
-
-
-
-
 
 // Starting our http server and listening for requests!
 requestHandler.listen(port, () => {
