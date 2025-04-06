@@ -1,7 +1,6 @@
 # Detroit Metropolitan Area PM2.5 Air Quality Data Cleaning Documentation for EPA Air Quality Dataset
 
 ## Original Dataset Information
-- **Dataset Name**: cleanedepaairnowdmsa.csv
 - **Number of Rows**: 1,138
 - **Number of Columns**: 19
 - **Dataset Purpose**: Air quality measurements focusing on PM2.5 concentrations
@@ -41,7 +40,6 @@
 1. Identified columns with constant values across all rows
 2. Documented the constant values for reference
 3. Created a cleaned version of the dataset with constant columns removed
-4. Removed columns with constant values to streamline the dataset
 
 ## Post-Cleaning Dataset Specifications
 - **Cleaned Dataset Name**: cleaned-epa-airnow-dmsa.csv
