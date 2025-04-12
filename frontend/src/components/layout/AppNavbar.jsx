@@ -15,15 +15,11 @@ const AppNavbar = () => {
           <Nav className="me-auto">
             <Nav.Link href="#home">Analysis Summary</Nav.Link>
             <NavDropdown title="Analysis" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">Site Comparison</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
-                Another action
+                Time Trends
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Geographic Map</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#link">About Me</Nav.Link>
           </Nav>
