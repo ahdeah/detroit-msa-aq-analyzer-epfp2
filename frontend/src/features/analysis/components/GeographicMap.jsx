@@ -1,4 +1,5 @@
 import React from "react";
+import Map from "./charts/Map";
 
 const GeographicMap = () => {
   return (
@@ -10,6 +11,7 @@ const GeographicMap = () => {
           quality, and how do these relate to their geographic locations?
         </strong>
       </p>
+      <Map />
     </div>
   );
 };
