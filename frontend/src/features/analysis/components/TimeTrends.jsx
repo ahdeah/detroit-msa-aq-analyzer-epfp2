@@ -1,4 +1,5 @@
 import React from "react";
+import LineChart from "./charts/LineChart";
 
 const TimeTrends = () => {
   return (
@@ -10,6 +11,7 @@ const TimeTrends = () => {
           (daily, weekly, or monthly trends)?
         </strong>
       </p>
+      <LineChart />
     </div>
   );
 };
