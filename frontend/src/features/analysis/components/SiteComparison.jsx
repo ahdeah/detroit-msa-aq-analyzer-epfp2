@@ -1,4 +1,5 @@
 import React from "react";
+import BarChart from "./charts/BarChart";
 
 const SiteComparison = () => {
   return (
@@ -10,7 +11,7 @@ const SiteComparison = () => {
           sites in the Detroit metro area?
         </strong>
       </p>
-      
+      <BarChart />
     </div>
   );
 };
