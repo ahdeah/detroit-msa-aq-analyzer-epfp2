@@ -1,9 +1,18 @@
-import React from 'react'
+import React from "react";
 
 const SiteComparison = () => {
   return (
-    <div>SiteComparison</div>
-  )
-}
+    <div>
+      <h1>Site Comparisons</h1>
+      <p>
+        <strong>
+          How does air quality (PM2.5 levels) compare across the 12 monitoring
+          sites in the Detroit metro area?
+        </strong>
+      </p>
+      
+    </div>
+  );
+};
 
-export default SiteComparison
+export default SiteComparison;
