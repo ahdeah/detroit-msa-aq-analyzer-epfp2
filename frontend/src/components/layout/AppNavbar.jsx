@@ -76,7 +76,7 @@ const AppNavbar = () => {
           "to='/'" sets the destination URL to the home route
         */}
         <Navbar.Brand as={Link} to="/">
-          Air Quality Analyzer
+          Detroit MSA AQ Analyzer
         </Navbar.Brand>
         
         {/* Hamburger menu toggle for mobile view */}
